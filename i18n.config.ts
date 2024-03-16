@@ -1,15 +1,13 @@
+import { HomePageLocales } from "./locales";
+
 export default defineI18nConfig(() => ({
     legacy: false,
     messages: {
         en: {
-            homePage: {
-
-            }
+            homePage: HomePageLocales.En
         },
         es: {
-            homePage: {
-
-            }
+            homePage: HomePageLocales.Es
         },
     },
 }));
